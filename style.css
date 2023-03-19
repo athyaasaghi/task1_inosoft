@@ -1,0 +1,42 @@
+.judul {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.judul h1 {
+    border-bottom: 1px solid lightblue;
+    width: 60%;
+    margin: auto;
+}
+
+.about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "col col2"   
+}
+
+.col {
+    grid-area: col;
+}
+
+.col h2{
+    font-size: 1.2rem;
+}
+
+.col h1 {
+    font-size: 1.5rem;
+}
+
+.col2 {
+    grid-area: col2;
+}
+.col1 {
+    background-color: lightblue;
+}
+
